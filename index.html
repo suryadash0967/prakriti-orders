@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Prakriti | Orders</title>
+</head>
+
+<body>
+    <div class="navBar">
+        <img src="prakriti-logo-img.png" class="prakriti-logo">
+
+
+
+
+        <div id="menuToggle">
+            <input type="checkbox" />
+
+            <div id="menuOverlay"></div>
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+
+            <ul id="menu">
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="https://suryadash0967.github.io/prakriti-about/">
+                    <li>About</li>
+                </a>
+                <div class="collections-sidebar-menu">
+
+                    <label for="touch">
+                        <li>Collections<i class='bx bxs-chevron-down'></i></li>
+                    </label>
+
+
+                    <nav>
+
+                        <input type="checkbox" id="touch">
+
+                        <ul class="slide">
+                            <a class="collections-redirect" href="https://suryadash0967.github.io/sabai-treasures-page/">
+                                <li>
+                                    <img src="sabai-treasures.png" class="collections-img">
+                                    <div>Sabai Treasures</div>
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="https://suryadash0967.github.io/bamboo-bliss-page/">
+                                <li>
+                                    <img src="bamboo-bliss.png" class="collections-img">
+                                    <div>Bamboo Bliss</div>
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="https://suryadash0967.github.io/terra-touch-page/">
+                                <li>
+                                    <img src="terra-touch.png" class="collections-img">
+                                    <div>Terra Touch</div>
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="https://suryadash0967.github.io/loom-legacy-loom-legacy-page/">
+                                <li>
+                                    <img src="loom-legacy.png" class="collections-img">
+                                    <div>Loom Legacy</div>
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="https://suryadash0967.github.io/metal-essence-page/">
+                                <li>
+                                    <img src="metal-essence.png" class="collections-img">
+                                    <div>Metal Essence</div>
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="https://suryadash0967.github.io/prakriti-collections-page/">
+                                <li>
+                                    <img src="prakriti-collections.jpeg" class="collections-img">
+                                    <div>Prakriti Collection</div>
+                                </li>
+                            </a>
+                        </ul>
+
+                    </nav>
+
+
+
+
+
+
+
+                </div>
+                <a href="#">
+                    <li>Help & Support</li>
+                </a>
+
+                <a href="#">
+                    <li>Wishlist <i class='bx bxs-heart'></i></li>
+                </a>
+                <a href="#">
+                    <li>Orders <i class="fa-solid fa-bag-shopping"></i></li>
+                </a>
+            </ul>
+        </div>
+
+
+
+
+
+
+        <div class="navbar-navigations">
+            <div class="options home"><a href="#">Home</a></div>
+            <div class="options about"><a href="https://suryadash0967.github.io/prakriti-about/">About</a></div>
+            <div class="options collections">
+
+
+
+                <span>Collections</span>
+                <i class='bx bxs-chevron-down'></i>
+                <div class="dots" onclick="this.classList.toggle('active');">
+                    <div class="shadow cut"></div>
+                    <div class="container cut">
+                        <div class="drop cut2"></div>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <a class="collections-redirect" href="https://suryadash0967.github.io/sabai-treasures-page/">
+                                <li>
+                                    <img src="sabai-treasures.png" class="collections-img">
+                                    Sabai Treasures
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="https://suryadash0967.github.io/bamboo-bliss-page/">
+                                <li>
+                                    <img src="bamboo-bliss.png" class="collections-img">
+                                    Bamboo Bliss
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="https://suryadash0967.github.io/terra-touch-page/">
+                                <li>
+                                    <img src="terra-touch.png" class="collections-img">
+                                    Terra Touch
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="https://suryadash0967.github.io/loom-legacy-loom-legacy-page/">
+                                <li>
+                                    <img src="loom-legacy.png" class="collections-img">
+                                    Loom Legacy
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="https://suryadash0967.github.io/metal-essence-page/">
+                                <li>
+                                    <img src="metal-essence.png" class="collections-img">
+                                    Metal Essence
+                                </li>
+                            </a>
+                            <a class="collections-redirect" href="https://suryadash0967.github.io/prakriti-collections-page/">
+                                <li>
+                                    <img src="prakriti-collections.jpeg" class="collections-img">
+                                    Prakriti Collection
+                                </li>
+                            </a>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="cursor" onclick="document.querySelector('.dots').classList.toggle('active');"></div>
+
+
+
+
+
+
+            </div>
+            <div class="options contact"><a href="#">Help & Support</a></div>
+            <div class="options wishlist"><a href="#">Wishlist <i class='bx bxs-heart'></i></a></div>
+            <div class="options orders"><a href="#">Orders</a></div>
+        </div>
+    </div>
+
+    <div class="gap"></div>
+
+    <div class="page">
+
+    <div class="orders-wrapper">
+
+        <div class="actions">
+
+        </div>
+
+        <div class="prev-order-wrapper">
+            <div class="prod-img">
+                <img src="img1.png" >
+            </div>
+            <div class="order-description-wrapper">
+                <div class="product-name">
+                    <a href="https://suryadash0967.github.io/sabai-treasures-bloom-art-wall/">Sabai Bloom Wall Art Set - Set of 3 Wall Hangings</a>
+                </div>
+                <div class="order-date">
+                    <div class="delivered" style="font-size: 22px; font-weight: 600;">Order Delivered On : 31 July 2024</div>
+                    <div class="placed" style="font-size: 17px; font-weight: 600;">Order Placed On : 22 July 2024</div>
+                </div>
+                <div class="return">
+                    <b>**Return Eligibility</b> : You can return your order within 7 days after the product has been delivered.
+                </div>
+                <div class="buy-again-btn">
+                    <button onclick="handleBuyNowBtnClick()">
+                        BUY AGAIN
+                        <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="45" height="45" fill="url(#pattern0_435_222)"/>
+                            <rect x="10" y="10" width="25" height="25" fill="url(#pattern1_435_222)"/>
+                            <defs>
+                            <pattern id="pattern0_435_222" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_435_222" transform="scale(0.0111111)"/>
+                            </pattern>
+                            <pattern id="pattern1_435_222" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image1_435_222" transform="scale(0.0111111)"/>
+                            </pattern>
+                            <image id="image0_435_222" width="90" height="90" xlink:href="data:image/png;base64,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"/>
+                            <image id="image1_435_222" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADwklEQVR4nO2cz0tVQRTHb0VGQRHhJmydJbQS7KXnvLcIwj8go3UUbdJNEbRJ+rE3qSAx8J25ublEgYtXoDPXIOwHlq2rXUE/SPtpIGUvxiJavPvwifeeuTPzgQMiD845X8aZOff7vEHg8Xg8Ho/HkzljQ+2bpMCriuCTElhNiFlFIFUZj09FhY3ZV2kBUsC1OgLXipcTZezgrjtX9PcHayXh9waF1jE/TsV93PW7ILSO1/evd27m7sHmreNfSIFnuOvPDfpwUwSXpYCPDQtN8Jy7fmuIop51sYDDSWJPUnE3d41WoQROJ2wfp7hrswop8Fzt7QNj7tqsQt+dE/bpH/FIaSt3fVZdBRXB25pih8VD3PVZhSQYqXkoEhJ3bVYRl+FgwoH4Xq947vqsoRJ2bFGEC7XEjsOuAnd9VqEEqNrbB1zgrs0qFBVP1t4+4Cl3bVYhw87WhPv0rzgs7eCuzyokwYuEO/Ux7tqsQhJcWukTP2VPzCoBA1HU1pSe0GU8YECjVTMCBlITujLYvUESfOVvEg0I+BCkiRJ4i79JZA9JOJeq0HGIR7mbVCYE4ViqQt8Lcbu+0rE3KrhXNPQGaaMInnA3qriFDjtb0xdawHnHV/Or1EX+K/Rex4UeZjcDlAORqeEhBZS5G1Y8sRiPlpqzFLrHgKarmQfB48AUM0BZHFLgxcAYM0BYHAQlY8wAZWsQfNPPezIXOh4p7XJLaEx37F6JGaAsjEzG7mShcdAZocMMxm7XzQCZ1dhd1wwQ+MUBoYcDbiThbeuFDg34nqEDZsBipmO3s2YAZTx2u2oGSI6x20kzgBjGbufMAGIau50zA4hx7HbJDJCcY7dLZoDkHLtdMQMk99jtihkgTRi7XTADpAljdxLjBDu5BVqVIFy4O1zYFpiMEjCV+9VMcDMwHRXC/nyvZvg5eaO4J8gDinAox0KfDfLC9FD7eiUwYhetwZAEV6rVYE2QJ/qXxvKlW8i8+QLjnKSuI0GeiUdLzUrA6aU7NuE7/SDdhH1YCngjCe9MCDzhX8jl8Xg8Ho/H0zCVwe4NSkCfJHyovTgd+mftYqTpy3HlZWGiXGhRhM8SBwaBM/oztuRloaJXVJ1m/296NVcYV142lIC+5U5sekrLe142lIBHDTxzeJD3vGzIBt7xoT+b97xsyEZepkL4Oe952VB+68gGSdDLcShx5eX+94uZ5VyzVvPtW1x5WZkoF1rqNZ3mwMKRl5UoamvSf6L6KqUPqj+HFUzp36W5orjyejwej8fj8Xg8Hk9gGr8BLGVE3FUa5UsAAAAASUVORK5CYII="/>
+                            </defs>
+                            </svg>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="orders-actions">
+                <button class="orders-actions-btn">
+                    Track Your Order
+                </button>
+                <button class="orders-actions-btn">
+                    Return Your Order
+                </button>
+                <button class="orders-actions-btn">
+                    Leave A Feedback
+                </button>
+                <a href="https://suryadash0967.github.io/sabai-treasures-bloom-art-wall/">
+                    <button class="orders-actions-btn">
+                        Give A Product Review
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="load-more-wrapper"><button class="load-more" onclick="loadMore()">LOAD MORE</button></div>
+            <div class="load-more-message">
+                <p style="font-size: 22px; font-weight: 700;">You don't have more orders.</p>
+                <p>Check out our latest collections !</p>
+                <!-- <p>We will be back soon with more such collections.</p> -->
+            </div>
+
+
+
+
+
+    </div>
+
+    <div class="line-before-footer"></div>
+
+        <div class="footer-wrapper">
+            <div class="footer-contact">
+                <div class="email">
+                    <i class='fa-solid fa-envelope'></i>
+                    <span>care@prakriti.com</span>
+                </div>
+                <div class="phone-number">
+                    <i class='fa-solid fa-phone'></i>
+                    +91 63768 83999
+                </div>
+            </div>
+            <div class="footer-categories-wrapper footer-head">
+                <h3>Categories</h3>
+                <div style="height: 0.2rem;"></div>
+                <div class="categories"><a href="https://suryadash0967.github.io/sabai-treasures-page/">Sabai Treasures</a></div>
+                <div class="categories"><a href="https://suryadash0967.github.io/bamboo-bliss-page/">Bambooo Bliss</a></div>
+                <div class="categories"><a href="https://suryadash0967.github.io/terra-touch-page/">Terra Touch</a></div>
+                <div class="categories"><a href="https://suryadash0967.github.io/loom-legacy-loom-legacy-page/">Loom Legacy</a></div>
+                <div class="categories"><a href="https://suryadash0967.github.io/metal-essence-page/">Metal Essence</a></div>
+                <div class="categories"><a href="https://suryadash0967.github.io/prakriti-collections-page/">Prakriti Collections</a></div>
+            </div>
+            <div class="footer-information-wrapper footer-head">
+                <h3>Information</h3>
+                <div style="height: 0.2rem;"></div>
+                <div class="information"><a href="https://suryadash0967.github.io/prakriti-about/">About</a></div>
+                <div class="information"><a href="#">Help & Support</a></div>
+                <div class="information"><a href="#">Terms & Conditions</a></div>
+            </div>
+            <div class="footer-quick-links-wrapper footer-head">
+                <h3>Quick Links</h3>
+                <div style="height: 0.2rem;"></div>
+                <div class="quick-links"><a href="#">Orders</a></div>
+                <div class="quick-links"><a href="https://suryadash0967.github.io/prakriti-about/">About</a></div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+
+    
+    <script>
+        function myFunction(x) {
+            bigNavBar = document.querySelector(".navbar-navigations");
+
+            if (x.matches) {
+                bigNavBar.remove();
+            }
+        }
+
+        var x = window.matchMedia("(max-width: 880px)")
+
+        myFunction(x);
+
+        x.addEventListener("change", function () {
+            myFunction(x);
+        });
+
+
+
+        function loadMore() {
+            console.log("Loading more content...");
+
+            var caughtUpMessage = document.querySelector(".load-more-message");
+            caughtUpMessage.classList.add('show');
+
+            setTimeout(function () {
+                caughtUpMessage.classList.add('hide');
+                setTimeout(function () {
+                    caughtUpMessage.classList.remove('show', 'hide');
+                }, 300); // Wait for the transition to complete before removing classes
+            }, 5000); // 5000 milliseconds = 5 seconds
+        }
+
+        function handleBuyNowBtnClick() {
+            window.open("https://suryadash0967.github.io/sabai-treasures-bloom-art-wall/");
+        }
+    </script>
+
+</body>
+
+</html>
